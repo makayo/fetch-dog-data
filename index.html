@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dog Breeds</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      margin: 20px;
+    }
+
+    /* Scrollable breed list */
+    #breedList {
+      max-height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      padding: 8px;
+      width: 250px;
+      border-radius: 6px;
+      background: #fafafa;
+    }
+
+    #breedList li {
+      cursor: pointer;
+      padding: 4px;
+      margin: 2px 0;
+    }
+
+    #breedList li:hover {
+      background-color: #f0f8ff;
+    }
+
+    .selected-breed {
+      background-color: #d0ebff;
+      padding: 4px;
+      border-radius: 4px;
+    }
+
+    #breedDetails {
+      border: 1px solid #ccc;
+      padding: 16px;
+      margin: 12px 0;
+      border-radius: 8px;
+      max-width: 500px;
+      background: #fafafa;
+    }
+
+    #breedDetails h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Dog Breeds</h1>
+
+  <!-- Scrollable list -->
+  <ul id="breedList"></ul>
+
+  <h2>Breed Details</h2>
+  <div id="breedDetails"></div>
+
+  <h2>Dog Facts</h2>
+  <ul id="factsList"></ul>
+
+
+  <script src="app.js"></script>
+  <script src="testFetch.js"></script>
+
+
+</body>
+</html>

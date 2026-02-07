@@ -75,4 +75,3 @@ This project demonstrates:
 - Error handling and edge‑case testing  
 - Minimal, professional code organization  
 
-It fulfills the requirements for the Week 5 assignment and provides a stable, easy‑to‑understand example of API‑driven web development.
